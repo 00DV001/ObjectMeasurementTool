@@ -20,7 +20,7 @@ This system uses computer vision to:
 .
 ├── main.py         # Main application logic
 ├── utils.py        # Helper functions: contour detection, warping, measurement
-├── test_img        # Sample input image (can switch to webcam)
+├── test_img.jpg    # Sample input image (can switch to webcam)
 ```
 
 ---
@@ -41,7 +41,7 @@ pip install opencv-python numpy
 1. Place the object on an A4 sheet and take a picture.
 2. Set the image path in `main.py`:
    ```python
-   path = 'test_img_3.jpg'
+   path = 'test_img.jpg'
    webCam = False
    ```
 3. Run the script:
